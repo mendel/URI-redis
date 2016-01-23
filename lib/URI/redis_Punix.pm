@@ -7,8 +7,8 @@ our $VERSION = '0.01';
  
 use base qw( URI::redis );
 
-sub database_from_path { undef }
 sub host { undef }
+
 sub port { undef }
 
 sub socket_path {
@@ -16,6 +16,8 @@ sub socket_path {
 
     return $self->path;
 }
+
+sub database_from_path { undef }
 
 1;
 
@@ -27,12 +29,12 @@ __END__
 
 Added these paragraphs just to make Pod::Coverage happy.
 
-=head2 database_from_path
-
 =head2 host
 
 =head2 port
 
 =head2 socket_path
+
+=head2 database_from_path
 
 =end internal
