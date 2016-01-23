@@ -1,4 +1,6 @@
 Revision history for URI-redis
 
+0.02    2016-01-23 10:33:00+0100
+        - Better class inheritance structure.
 0.01    2016-01-15 21:54:00+0100
         - First version.
