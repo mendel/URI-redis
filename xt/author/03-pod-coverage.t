@@ -18,6 +18,6 @@ eval "use Pod::Coverage $min_pc";
 plan skip_all => "Pod::Coverage $min_pc required for testing POD coverage"
     if $@;
 
-pod_coverage_ok( 'URI::redis' );
+all_pod_coverage_ok();
 
 done_testing;
