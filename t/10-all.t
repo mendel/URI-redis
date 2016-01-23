@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-use Test::Most;
+use Test::Most 0.21;
 use URI::redis;
 
 sub test_methods {

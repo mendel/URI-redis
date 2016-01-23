@@ -16,3 +16,5 @@ MANIFEST.bak
 inc/
 README
 .local-lib*
+.build/
+URI-redis-*/
